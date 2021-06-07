@@ -1,8 +1,7 @@
-.body{
-    background-color: #191919;
-    outline: re;
-}
-.h1 {
+body{
+    background-color:darkgray;
+  }
+h1 {
     font-size: 36px/30px;
     color: #ffffff;
     letter-spacing: 3.6px;
@@ -12,39 +11,66 @@
     font-style: normal;
 }
 
-.h2{
+h2 {
     color: #ffffff;
     font-family: bold 30px/35px Helvetica;
 }
 
-.h3 {
+h3 {color: #ffffff;
+    font-family: bold 22px/25px Helvetica;
 
 }
-.h4{
+h4 {color: #ffffff;
+    font-family: 16px/20px Helvetica;}
 
-}
 
 
-.inline-block {
-display: inline-block;
+/* NAV */
+
+.inline-block {display: flex;
+align-content: flex-start;
+justify-content: space-between;
 vertical-align: top;
 }
+
 .logo{
     width: 23%;
     padding: 1%;
+    text-align: center;
 }
 
 nav {
 width: 73%;
 padding: 1%;
 }
+
 .navlist {
     width: 50%;
-    margin-left: auto;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+
+/*hero*/
+
+.heroList {
+    width: 600px;
+    padding: 25px;
+    color: white;
+    list-style-type: none;
 }
 
 .heroImg {
+    height: 200px;
+    padding: 25px;
+
 
 }
 
-
+/*footer*/
+footer {
+display: inline-block;
+vertical-align: top;
+padding: auto;
+}
