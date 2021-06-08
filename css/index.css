@@ -97,8 +97,13 @@ header {
     font-weight: 700;
     }
 
+    #ux_ui:hover, #graphic_design:hover, #illustrator:hover, #iconographer:hover, #photographer:hover, #fine_artist:hover, #comedian:hover {
+color: #CDFF7E;
+transition: all 0.5s ease-in-out 0.2s;
+    }
 #ux_ui {
     grid-area: ux_ui;
+    color: #ffffff;
 }
 #graphic_design {
     grid-area: graphic_design;
@@ -126,8 +131,9 @@ header {
 }
 #hero_img {
     grid-area: hero_img;
-    height: 250px;
-    background-image: url(images/Hero Graphic@2x.png);
+    height: 275px;
+    background-image: url(images/Hero_Graphic@2x.png);
+    
 }
 
 /*Work*/
@@ -196,12 +202,13 @@ footer {
     justify-content: space-between;
     align-items: center;
     text-align: right;
-    padding: 30px 10%;
+    padding: 30px 11%;
     }
 
 li {
     list-style-type: none;
 margin-left: 15px;
+padding-bottom: 15px;
 }
 
 .copywrite {
@@ -210,11 +217,13 @@ margin-left: 15px;
     justify-content: center;
   padding-top: 15px;
     padding-bottom: 15px;
-    background-color: black;
+    background-color: #171717;
     font-size: 10px;
     text-transform: uppercase;
     font-family: gravesend-sans, helvetica, sans-serif;
-    font-weight: 700;}
+    font-weight: 700;
+    color: white;
+}
 
 
 .icon{
