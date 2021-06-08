@@ -98,8 +98,10 @@ header {
     }
 
     #ux_ui:hover, #graphic_design:hover, #illustrator:hover, #iconographer:hover, #photographer:hover, #fine_artist:hover, #comedian:hover {
-color: #CDFF7E;
-transition: all 0.5s ease-in-out 0.2s;
+background: -webkit-linear-gradient(180deg,#FFB82D, #CF3481);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+transition: all 0.8s ease-in-out 0.4s;
     }
 #ux_ui {
     grid-area: ux_ui;
