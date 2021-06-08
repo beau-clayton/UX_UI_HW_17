@@ -25,8 +25,9 @@ h3 {color: #ffffff;
     font-family: bold 22px/25px Helvetica;
 
 }
-h4 {color: #ffffff;
-    font-family: 16px/20px Helvetica;}
+h4 {color: white;
+    font-size:14px/20px; 
+    font-family: helvetica, sans-serif;}
 
 
 
@@ -39,13 +40,14 @@ li, a {
     font-size: 14px;
     color: white;
     text-decoration: none;
+    text-align: left;
 }
 
 header { 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 11%;
 }
 
 .logo {
@@ -63,7 +65,7 @@ header {
 }
 
 .nav_links li a:hover {
-    color: greenyellow;
+    color: #38D681;
     transition: all 0.3s ease 0s;
 }
 
@@ -125,9 +127,20 @@ header {
 #hero_img {
     grid-area: hero_img;
     height: 250px;
-    background-image: url(/Users/beau/Documents/MyCode/UX_UI_HW_17/images/Hero Graphic@2x.png);
+    background-image: url(images/Hero Graphic@2x.png);
 }
 
+/*Work*/
+.work {
+        align-items: center;
+    justify-content: center;
+    padding: 30px 10%;
+    }
+
+    #work_img {
+        height: 250px;
+        padding: 15px;
+    }
 
 
 /*
@@ -177,10 +190,46 @@ align-items: flex-start;}
 
 
 
-
 /*footer*/
 footer {
-display: inline-block;
-vertical-align: top;
-padding: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    padding: 30px 10%;
+    }
+
+li {
+    list-style-type: none;
+margin-left: 15px;
+}
+
+.copywrite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: gravesend-sans, helvetica, sans-serif;
+    font-weight: 700;}
+
+
+.icon{
+    padding-top: 15px;
+    padding-inline: 5px;
+    height: 35px;
+    cursor: pointer;
+
+}
+
+.contact {
+    padding-top: 15px;
+}
+
+li a:hover {
+    color: #38D681;
+    transition: all 0.3s ease 0s;
 }
